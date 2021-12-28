@@ -7,7 +7,7 @@ class Counter extends React.Component {
 	};
 
 	formatCount() {
-		return this.state.count === 0 ? "zero" : this.state.count;
+		return this.state.count === 0 ? "Zero" : this.state.count;
 	}
 
 	styles = {
